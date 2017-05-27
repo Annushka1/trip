@@ -75,9 +75,21 @@ body{
 
 .praga-list, .vena-list, .munhen-list {
   width: 900px;
-  background-color: #d7eef4;
+  background-color: #f2f1f1;
   padding-top: 10px;
   align-self: center;
+}
+ol li{
+  margin-bottom:15px;
+}
+ol li:nth-child(1){
+  margin-top:20px;
+}
+
+.comment{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  color:#808080;
 }
 
 .praga-video, .vena-video, .munhen-video {
@@ -203,5 +215,3 @@ footer p {
 .active {
 display: flex;
 }
-
-
